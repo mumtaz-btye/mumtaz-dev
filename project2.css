@@ -1,0 +1,69 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+ .container{
+    background-color: blue;
+    
+    
+ }
+ .hero{
+    display: flex ;
+    gap:100px;
+    justify-content:justify;
+    padding-right: 60px;
+    padding-bottom: 40px;
+    padding-left: 80px;
+    padding-top: 20px;
+   
+
+    
+ }
+ .hero-content{
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+   
+ }
+
+ .hero-content h1 {
+    font-size: 50px;
+    line-height: 1.2;
+    color: aliceblue;
+    font-weight: 400px;
+ }
+
+ .hero-content p{
+    color: whitesmoke;
+    font-size: 20px;
+    font-family: serif;
+    font-weight: 300px;
+ }
+ button{
+    padding: 15px 40px 15px;
+    border: none;
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+    font-size: bold;
+    color: blue;
+    letter-spacing: 4px;
+   
+    
+    
+ }
+ button :hover{
+    opacity: 0.8;
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+ }
+ .EXPLORE-btn{
+    background-color: rgb(245, 245, 245);
+    align-self: flex-start;
+   
+ }
+
+ .hero-imge{
+   margin-top: 40px;
+ 
+ }  
+   
